@@ -1,0 +1,22 @@
+{
+    "name": "poporder/order",
+    "description": "pop && order",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wang long",
+            "email": "szqq@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "php":">=5.6" 
+    },
+    "autoload":{
+        "psr-4":{ 
+            "Poporder\\Library\\":"src/" 
+        }
+	}
+}
